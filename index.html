@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Personal Portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/0045e43d97.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- header  -->
+    <header class="active">
+      <a href="#" class="logo">Omar.</a>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <nav>
+        <a href="#" class="active">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Resume</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <!-- bars background  -->
+
+    <div class="bars-box active">
+      <div class="bar" style="--i: 6"></div>
+      <div class="bar" style="--i: 5"></div>
+      <div class="bar" style="--i: 4"></div>
+      <div class="bar" style="--i: 3"></div>
+      <div class="bar" style="--i: 2"></div>
+      <div class="bar" style="--i: 1"></div>
+    </div>
+
+    <!-- home section  -->
+
+    <section class="home active">
+      <div class="home-detail">
+        <h1>Omar Faruk</h1>
+        <h2>
+          I'm a
+          <span style="--i: 4" data-text="Programmer">Programmer</span>
+          <span style="--i: 3" data-text="Web Designer">Web Designer</span>
+          <span style="--i: 2" data-text="Web Developer">Web Developer</span>
+          <span style="--i: 1" data-text="Front-end Developer"
+            >Front-end Developer</span
+          >
+        </h2>
+        <p>
+          I design and code beautiful, interactive websites that blend
+          creativity with technology, delivering smooth user experiences and
+          stunning digital solutions.
+        </p>
+        <div class="btn-sci">
+          <a href="#" class="btn">Download CV</a>
+          <div class="sci">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-discord"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <div class="img-box">
+          <div class="img-item">
+            <img src="images/omar_img.png" alt="profile_images" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section  -->
+
+    <section class="services">
+      <h2 class="heading">My <span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <div class="icon">
+            <i class="fa-solid fa-code"></i>
+            <a href="#"><i class="fa-solid fa-arrow-left"></i></a>
+          </div>
+          <h3>Web Development</h3>
+          <p>Building modern, responsive, user-friendly websites.</p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="fa-solid fa-paintbrush"></i>
+            <a href="#"><i class="fa-solid fa-arrow-left"></i></a>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>Creative UI/UX design for better usability.</p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="fa-brands fa-web-awesome"></i>
+            <a href="#"><i class="fa-solid fa-arrow-left"></i></a>
+          </div>
+          <h3>Web Design</h3>
+          <p>Modern web design for every business.</p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="fa-solid fa-laptop-code"></i>
+            <a href="#"><i class="fa-solid fa-arrow-left"></i></a>
+          </div>
+          <h3>Front-end</h3>
+          <p>Front-end development with clean, optimized code.</p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="fa-solid fa-database"></i>
+            <a href="#"><i class="fa-solid fa-arrow-left"></i></a>
+          </div>
+          <h3>Back-end</h3>
+          <p>Efficient server-side solutions for modern websites.</p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="fa-solid fa-palette"></i>
+            <a href="#"><i class="fa-solid fa-arrow-left"></i></a>
+          </div>
+          <h3>Graphic Design</h3>
+          <p>Designing visuals that capture every story.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- resume section  -->
+
+    <section class="resume">
+      <div class="resume-container">
+        <div class="resume-box">
+          <h2>Why Hire Me?</h2>
+          <p class="desc">
+            I solve complex problems with clean, scalable code, crafting
+            seamless user experiences and delivering results fast.
+          </p>
+          <button class="resume-btn active">Experience</button>
+          <button class="resume-btn">Education</button>
+          <button class="resume-btn">Skills</button>
+          <button class="resume-btn">About Me</button>
+        </div>
+
+        <div class="resume-box">
+          <div class="resume-detail experience active">
+            <h2 class="heading">My <span>Experience</span></h2>
+            <p class="desc">
+              Developed web applications with clean, efficient code,
+              collaborated with teams, and delivered reliable, user-focused
+              solutions.
+            </p>
+
+            <div class="resume-list">
+              <div class="resume-item">
+                <p class="year">2025 - Present</p>
+                <h3>Backend Developer</h3>
+                <p class="company">Code Breaker.</p>
+                <p>
+                  Developed robust backend systems, optimized APIs, and ensured
+                  secure data management.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2023 - 2025</p>
+                <h3>Junior Developer</h3>
+                <p class="company">Tech Wolf.</p>
+                <p>
+                  Supported team in coding, testing, and maintaining
+                  applications successfully.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2022 - 2023</p>
+                <h3>Full Stack Developer</h3>
+                <p class="company">The Codefather.</p>
+                <p>
+                  Developed front-end and back-end applications, ensuring
+                  seamless performance and usability.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2021 - 2022</p>
+                <h3>Frontend Developer</h3>
+                <p class="company">Code Wizard.</p>
+                <p>
+                  Developed front-end applications, collaborated with teams, and
+                  enhanced website usability.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2020 - 2021</p>
+                <h3>UI/UX Designer</h3>
+                <p class="company">Tech Beast.</p>
+                <p>
+                  Designed user interfaces, improved user experience, and
+                  enhanced overall usability.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2020 - 2020</p>
+                <h3>Graphic Designer</h3>
+                <p class="company">Punny Pixels.</p>
+                <p>
+                  Designed graphics, illustrations, and layouts, ensuring brand
+                  consistency and impact.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-detail education">
+            <h2 class="heading">My <span>Education</span></h2>
+            <p class="desc">
+              Completed secondary and higher secondary education, building
+              strong academic foundations and developing essential skills for
+              growth
+            </p>
+
+            <div class="resume-list">
+              <div class="resume-item">
+                <p class="year">2025</p>
+                <h3>Progamming Course</h3>
+                <p class="company">Udemy</p>
+                <p>
+                  Completed a Udemy programming course and built practical
+                  projects.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2023 - 2024</p>
+                <h3>Web Development</h3>
+                <p class="company">Free Code Camp</p>
+                <p>
+                  Completed FreeCodeCamp Web Development Bootcamp and built real
+                  projects.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2022</p>
+                <h3>Graphic Design</h3>
+                <p class="company">W3 School</p>
+                <p>
+                  Earned Udemy graphic design Certificate and built practical
+                  projects.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2017</p>
+                <h3>HSC</h3>
+                <p class="company">J.K. College</p>
+                <p>
+                  Completed HSC from J.K. College, gaining strong academic
+                  foundation and skills.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2015</p>
+                <h3>SSC</h3>
+                <p class="company">Pilot High School</p>
+                <p>
+                  Completed SSC from Pilot High School, building a solid
+                  academic foundation.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2013</p>
+                <h3>JSC</h3>
+                <p class="company">Pilot High School</p>
+                <p>
+                  Completed JSC from Pilot High School, building a solid
+                  academic foundation.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-detail skills">
+            <h2 class="heading">My <span>Skills</span></h2>
+            <p class="desc">
+              Proficient in full stack web development, building responsive,
+              scalable applications using modern frameworks and tools.
+            </p>
+
+            <div class="resume-list">
+              <div class="resume-item">
+                <i class="fa-brands fa-html5"></i>
+                <span>HTML5</span>
+              </div>
+
+              <div class="resume-item">
+                <i class="fa-brands fa-css3-alt"></i>
+                <span>CSS3</span>
+              </div>
+
+              <div class="resume-item">
+                <i class="fa-brands fa-js"></i>
+                <span>JavaScript</span>
+              </div>
+
+              <div class="resume-item">
+                <i class="fa-brands fa-react"></i>
+                <span>React.js</span>
+              </div>
+
+              <div class="resume-item">
+                <i class="fa-brands fa-vuejs"></i>
+                <span>Vue.js</span>
+              </div>
+
+              <div class="resume-item">
+                <i class="fa-brands fa-bootstrap"></i>
+                <span>Bootstrap5</span>
+              </div>
+
+              <div class="resume-item">
+                <i class="fa-brands fa-node-js"></i>
+                <span>Node.js</span>
+              </div>
+
+              <div class="resume-item">
+                <i class="fa-brands fa-pagelines"></i>
+                <span>MngoDB</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-detail about">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p class="desc">
+              Driven by innovation, I develop scalable web applications using
+              cutting-edge front-end and back-end tools.
+            </p>
+
+            <div class="resume-list">
+              <div class="resume-item">
+                <p>Name <span>Omar Faruk</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Gender <span>Male</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Age <span>26 Years Old</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Status <span>Single</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>City <span>Bogura</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Nationality <span>Bangladeshi</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Experience <span>5+ Years</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Part Time <span>Available</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Freelance <span>Available</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Phone <span>(+880) 123 456 789</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Email <span>omarfaruk090599@gmail.com</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Languages <span>English, Bengali</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section  -->
+
+    <section class="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <div class="portfolio-detail active">
+            <p class="numb">01</p>
+            <h3>Frontend Project</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
+              debitis explicabo aliquam, nam unde architecto ullam similique
+              dolore?
+            </p>
+            <div class="tech">
+              <p>HTML5, CSS3, JavaScript</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="fa-solid fa-arrow-left"></i
+                ><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="fa-brands fa-github"></i
+                ><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">02</p>
+            <h3>Full Stack Project</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
+              debitis explicabo aliquam, nam unde architecto ullam similique
+              dolore?
+            </p>
+            <div class="tech">
+              <p>MongoDB, Express.js, React.js, Node.js</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="fa-solid fa-arrow-left"></i
+                ><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="fa-brands fa-github"></i
+                ><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">03</p>
+            <h3>Frontend Project</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
+              debitis explicabo aliquam, nam unde architecto ullam similique
+              dolore?
+            </p>
+            <div class="tech">
+              <p>React.js, Bootstrap5</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="fa-solid fa-arrow-left"></i
+                ><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="fa-brands fa-github"></i
+                ><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">04</p>
+            <h3>Full Stack Project</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
+              debitis explicabo aliquam, nam unde architecto ullam similique
+              dolore?
+            </p>
+            <div class="tech">
+              <p>MongoDB, Express.js, AngularJS, Node.js</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="fa-solid fa-arrow-left"></i
+                ><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="fa-brands fa-github"></i
+                ><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">05</p>
+            <h3>Frontend Project</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
+              debitis explicabo aliquam, nam unde architecto ullam similique
+              dolore?
+            </p>
+            <div class="tech">
+              <p>Vue.js, Bootstrap5</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="fa-solid fa-arrow-left"></i
+                ><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="fa-brands fa-github"></i
+                ><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">06</p>
+            <h3>Full Stack Project</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
+              debitis explicabo aliquam, nam unde architecto ullam similique
+              dolore?
+            </p>
+            <div class="tech">
+              <p>MongoDB, Express.js, Vue.js, Node.js</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="fa-solid fa-arrow-left"></i
+                ><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="fa-brands fa-github"></i
+                ><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <!-- images carousel  -->
+          <div class="portfolio-carousel">
+            <div class="img-slide">
+              <div class="img-item">
+                <img src="images/portfolio1.jpg" alt="" />
+              </div>
+
+              <div class="img-item">
+                <img src="images/portfolio2.jpg" alt="" />
+              </div>
+
+              <div class="img-item">
+                <img src="images/portfolio3.png" alt="" />
+              </div>
+
+              <div class="img-item">
+                <img src="images/portfolio4.jpg" alt="" />
+              </div>
+
+              <div class="img-item">
+                <img src="images/portfolio5.png" alt="" />
+              </div>
+
+              <div class="img-item">
+                <img src="images/portfolio6.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="navigation">
+            <button class="arrow-left disabled">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="arrow-right">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section  -->
+
+    <section class="contact">
+      <div class="contact-container">
+        <div class="contact-box">
+          <h2>Let's Work Together</h2>
+          <p class="desc">
+            Ready to turn your ideas into reality? I bring clean code, clear
+            communication, and creative solutions.
+          </p>
+          <div class="contact-detail">
+            <i class="fa-solid fa-phone"></i>
+            <div class="detail">
+              <p>Phone</p>
+              <p>(+880) 123 456 789</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <i class="fa-solid fa-envelope"></i>
+            <div class="detail">
+              <p>Email</p>
+              <p>omarfaruk090599@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <i class="fa-solid fa-location-dot"></i>
+            <div class="detail">
+              <p>Address</p>
+              <p>Bogura 5800, Rajshahi, Bangladesh</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-box">
+          <form action="">
+            <h2 class="heading">Contact <span>Me!</span></h2>
+            <div class="field-box">
+              <input type="text" placeholder="Full Name" required />
+              <input type="email" placeholder="Email Address" required />
+              <input type="text" placeholder="Phone Number" required />
+              <input type="text" placeholder="Email Subject" required />
+              <textarea
+                name=""
+                id=""
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
